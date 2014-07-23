@@ -1,8 +1,8 @@
 {
-  "name": "grunt-angular-inline-template",
-  "version": "0.0.1",
+  "name": "grunt-angular-inline-templates",
+  "version": "0.0.2",
   "description": "Inline template generator for AngularJS directives.",
-  "repository": "",
+  "repository": "https://github.com/voidberg/grunt-angular-inline-templates",
   "author": {
     "name": "Alexandru Badiu",
     "email": "andu@demotix.com"

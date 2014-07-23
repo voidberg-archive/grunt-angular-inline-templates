@@ -1,4 +1,4 @@
-# grunt-angular-inline-template
+# grunt-angular-inline-templates
 
 > Inline template generator for AngularJS directives.
 
@@ -14,13 +14,13 @@ This plugin requires Grunt.
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-angular-inline-template --save-dev
+npm install grunt-angular-inline-templates --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-angular-inline-template');
+grunt.loadNpmTasks('grunt-angular-inline-templates');
 ```
 
 ## The "nginlinetemplates" task
@@ -46,12 +46,12 @@ The plugin expects two options:
 * `src` - template file or files that will be minified, escaped and concatenated.
 * `dest` - the file where the templates will be embedded.
 
-The destination file requires a special comment, `/* grunt-angular-inline-template */` inside which will be replaced with the actual templates.
+The destination file requires a special comment, `/* grunt-angular-inline-templates */` inside which will be replaced with the actual templates.
 
 ```js
 (function(window, angular, undefined) {
 	angular.module('yourModule', ['Dep1', 'Dep2'])
-   		/* grunt-angular-inline-template */
+   		/* grunt-angular-inline-templates */
     	.directive('yourDirective', function() {
       		return {
 			...

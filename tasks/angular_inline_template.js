@@ -1,5 +1,5 @@
 /*
- * grunt-angular-inline-template
+ * grunt-angular-inline-templates
  *
  *
  * Copyright (c) 2014 Alexandru Badiu
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
 
   grunt.registerMultiTask('nginlinetemplates', 'Inline template generator for AngularJS directives.', function () {
     var options = this.options({
-      replaceString: '/* grunt-angular-inline-template */',
+      replaceString: '/* grunt-angular-inline-templates */',
       htmlmin: {
         collapseBooleanAttributes:      true,
         collapseWhitespace:             true,

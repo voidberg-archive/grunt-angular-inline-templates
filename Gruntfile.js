@@ -1,5 +1,5 @@
 /*
- * grunt-angular-inline-template
+ * grunt-angular-inline-templates
  *
  *
  * Copyright (c) 2014 Alexandru Badiu
