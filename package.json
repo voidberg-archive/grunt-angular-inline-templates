@@ -8,7 +8,11 @@
     "email": "andu@demotix.com"
   },
   "keywords": [
-    "gruntplugin"
+    "grunt",
+    "gruntplugin",
+    "angular",
+    "template",
+    "inline"
   ],
   "main": "Gruntfile.js",
   "engines": {
