@@ -70,7 +70,8 @@ This way I cover all needed usage cases.
 
 ## TODO
 
-* Add unit tests
+* Fix issue with inline templates not being generated correctly when they are not in the same directory as the js files.
+* Add unit tests.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code using [Grunt](http://gruntjs.com/).
