@@ -1,3 +1,5 @@
+*Note* I've moved away from Grunt so this plugin is unsupported.
+
 # grunt-angular-inline-templates
 
 > Inline template generator for AngularJS directives.
