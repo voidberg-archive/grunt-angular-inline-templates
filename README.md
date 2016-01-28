@@ -1,4 +1,4 @@
-**Note:** I've moved away from Grunt so this plugin is unsupported.
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 # grunt-angular-inline-templates
 
